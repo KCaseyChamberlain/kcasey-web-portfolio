@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+}
+/* START OF HEADER */
+header {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url("../images/triangles-blue.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    
+  }
+  
+  header h1 {
+    padding: 20px;
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: var(--primary-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  }
+  
+  header a {
+    text-decoration: none;
+    color: black
+  }
+  
+  header nav {
+    display: flex;
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(255, 255, 159, 0.7);
+  }
+  
+  header nav ul li a:hover {
+    color: #ffff9f;
+    border-radius: 15px;
+    text-shadow: none;
+  }
+
+/* END OF HEADER */
+
+/* START OF SECTIONS */
+section {
+    margin: 15px;
+    border-bottom: 5px solid #4193a9
+}
+
+
+#contact-me {
+    border-bottom: none;
+}
