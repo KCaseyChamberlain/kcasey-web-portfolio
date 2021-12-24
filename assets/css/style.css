@@ -1,6 +1,9 @@
 body {
     margin: 0;
+    background-color: #f0f0d6;
 }
+
+
 /* START OF HEADER */
 header {
     padding: 20px 35px;
@@ -24,8 +27,9 @@ header {
     margin: 0;
     font-size: 36px;
     color: var(--primary-color);
-    text-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    text-shadow: 0 0 10px rgba(255, 255, 159, 0.7);
   }
+
   
   header a {
     text-decoration: none;
@@ -62,10 +66,65 @@ header {
 /* START OF SECTIONS */
 section {
     margin: 15px;
-    border-bottom: 5px solid #4193a9
+    border-bottom: 5px dashed #4193a9;
 }
+
+section h2 {
+    text-shadow: 0 0 10px rgba(65, 147, 169, 0.5)
+}
+
+#about-me p {
+    float: right;
+    padding-right: 25px;
+    font-weight: bold;
+    color: #173e78;
+}
+
+
+
+
+
+.my-work-section {
+    
+    
+}
+
+.space {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.my-work-boxes {
+    display: inline-block;
+    background-color: red;
+    padding: 50px;
+    margin: 2.5%;
+}
+
+.my-work-boxes p {
+    text-align: center;
+}
+
+
+
+
+
 
 
 #contact-me {
     border-bottom: none;
 }
+
+/* START OF FOOTER */
+
+footer {
+    background: #4193a9;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    font-weight: bolder;
+    color: #f0f0d6;
+  }
