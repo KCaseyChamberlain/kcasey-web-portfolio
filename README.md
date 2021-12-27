@@ -1,29 +1,23 @@
-# Professional-Portfolio
+# KCasey's Web Portfolio
 
-Horiseon would like to share with you their competitive web experience they have been working on. As well as what they can provide for you!
+I would like to share with you my very own web portfolo. It has taken many hours to create and I hope you enjoy.
 
-## Horiseon's Offers:
+## KCasey's Portfolio:
 
-* Search Engine Optimization
+* Run Buddy
 
-* Online Reputation Management
+* Horiseon's Competitive Web Experience
 
-* Social Media Marketing
+* Robot Gladiators
 
-## Horiseon's Benefits:
-
-* Lead Generation
-
-* Brand Awareness
-
-* Cost Management
+* ETC
 
 ## Preview
 
 The following image demonstrates the web application's default appearance and functionality:
 
-![Screenshot of live URL](./assets/images/webpage-demo.jpg)
+![Screenshot of live URL](./assets/images/sample.jpg)
 
 ## 📝 Live URL
 
-* [Horiseon's Competitive Web Experience](https://kcaseychamberlain.github.io/Horiseon-Competitive-Web-Experience/)
+* [KCasey's Web Portfolio](https://kcaseychamberlain.github.io/kcasey-web-portfolio/)
