@@ -3,7 +3,6 @@ body {
     background-color: #f0f0d6;
 }
 
-
 /* START OF HEADER */
 header {
     padding: 15px 15px;
@@ -17,81 +16,91 @@ header {
     background-position: center;
     background-attachment: fixed;
     width: 100%;
-  }
+}
   
-  header h1 {
-    padding: 20px;
-    font-weight: bold;
-    margin: 0;
-    font-size: 36px;
-    color: var(--primary-color);
-    text-shadow: 0 0 10px rgba(255, 255, 159, 0.7);
-  }
+header h1 {
+  padding: 20px;
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+  color: var(--primary-color);
+  text-shadow: 0 0 10px rgba(255, 255, 159, 0.7);
+}
 
-  
-  header a {
-    text-decoration: none;
-    color: black
-  }
-  
-  header nav {
-    display: flex;
-  }
-  
-  header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-  }
-  
-  header nav ul li a {
-    padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(255, 255, 159, 0.7);
-  }
-  
-  header nav ul li a:hover {
-    color: #ffff9f;
-    border-radius: 15px;
-    text-shadow: none;
-  }
+header a {
+  text-decoration: none;
+  color: black
+}
 
+header nav {
+  display: flex;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(255, 255, 159, 0.7);
+}
+
+header nav ul li a:hover {
+  color: #ffff9f;
+  text-shadow: none;
+}
 /* END OF HEADER */
+
+/* START OF HERO */
+#hero {
+  background-image: url("../images/coding.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 150px;
+}
+/* /* END OF HERO */
 
 /* START OF SECTIONS */
 section {
-    margin: 15px;
-    border-bottom: 5px dashed #4193a9;
+  margin: 30px;
+  border-bottom: 5px dashed #4193a9;
 }
 
 section h2 {
-    text-shadow: 0 0 10px rgba(65, 147, 169, 0.5)
+  text-shadow: 0 0 10px rgba(65, 147, 169, 0.5);
+  color: #2981D5;
 }
-
 
 /* START OF ABOUT ME */
 #about-me p {
-    padding-right: 25px;
-    font-weight: bold;
-    color: #173e78;
-    text-align: right;
+  padding-right: 25px;
+  font-weight: bold;
+  color: #173e78;
+  text-align: right;
+}
+
+img {
+  border-radius: 15px;
+  max-width: 30%;
 }
 /* END OF ABOUT ME */
 
 
 /* START OF MY WORK */
-#my-work {
-}
-
 .articles {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    font-weight: bolder;
-    
+  max-width: 95%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-weight: bolder;
 }
 
 .articles p {
@@ -106,12 +115,12 @@ section h2 {
   background-size: 400px 200x;
   background-repeat: round;
   padding: 9%;
-  margin: 2.5%;
+  margin: .9%;
 }
 
 #horiseon{
   padding: 5%;
-  margin: 2.5%;
+  margin: .9%;
   background-image: url(../images/horiseon.jpg);
   background-size: 400px 200x;
   background-repeat: round;
@@ -119,7 +128,7 @@ section h2 {
 
 #robot {
   padding: 4.5%;
-  margin: 2.5%;
+  margin: .9%;
   background-image: url(../images/robot.jpg);
   background-size: 400px 200x;
   background-repeat: round;
@@ -127,40 +136,55 @@ section h2 {
 
 #youtube {
   padding: 2.5%;
-  margin: 2.5%;
+  margin: .9%;
   background-image: url(../images/youtube.jpg);
   background-size: 400px 200x;
   background-repeat: round;
 }
-
 /* END OF MY WORK */
 
-
-
-
-
+/* START OF CONTACT ME */
 #contact-me {
-    border-bottom: none;
+  border-bottom: none;
 }
+/* END OF CONTACT ME */
+
+/* END OF SECTIONS */
+
 
 /* START OF FOOTER */
-
 footer {
-    background: #4193a9;
-    padding: 15px 15px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
-    font-weight: bolder;
-    color: #f0f0d6;
-  }
+  background: #4193a9;
+  padding: 15px 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  font-weight: bolder;
+  color: #f0f0d6;
+}
 
-  footer div {
-    font-size: 25px;
-    
-  }
+footer div {
+  font-size: 25px;
+  
+}
+/* END OF FOOTER */
 
+  /* HOVER */
 .articles :hover{
   color: aqua;
+}
+/* END OF HOVER */
+
+/* MEDIA QUERY */
+@media screen and (max-width: 980px) {
+  .articles {
+    display: inline;
+  }
+  #about-me p {
+    font-size: 13px;
+  }
+  #contact-me div {
+    font-size: 12px;
+  }
 }
