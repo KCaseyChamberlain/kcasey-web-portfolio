@@ -6,19 +6,17 @@ body {
 
 /* START OF HEADER */
 header {
-    padding: 20px 35px;
+    padding: 15px 15px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
     background-image: url("../images/triangles-blue.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-position: 80%;
-    
+    width: 100%;
   }
   
   header h1 {
@@ -73,40 +71,73 @@ section h2 {
     text-shadow: 0 0 10px rgba(65, 147, 169, 0.5)
 }
 
+
+/* START OF ABOUT ME */
 #about-me p {
-    float: right;
     padding-right: 25px;
     font-weight: bold;
     color: #173e78;
+    text-align: right;
+}
+/* END OF ABOUT ME */
+
+
+/* START OF MY WORK */
+#my-work {
 }
 
-
-
-
-
-.my-work-section {
-    
-    
-}
-
-.space {
+.articles {
     justify-content: center;
     align-items: center;
     display: flex;
+    font-weight: bolder;
+    
 }
 
-.my-work-boxes {
-    display: inline-block;
-    background-color: red;
-    padding: 50px;
-    margin: 2.5%;
+.articles p {
+  font-size: 40px;
+  color: #4193a9;
+  text-shadow: 0 0 10px rgba(0, 27, 69, 1);
+  text-align: center;
 }
 
-.my-work-boxes p {
-    text-align: center;
+#run-buddy {
+  display: inline-block;
+  background-image: url("../images/run-buddy.jpg");
+  background-size: 400px 200x;
+  background-repeat: round;
+  padding: 7%;
+  margin: 2.5%;
 }
 
+#horiseon{
+  display: inline-block;
+  padding: 4%;
+  margin: 2.5%;
+  background-image: url(../images/horiseon.jpg);
+  background-size: 400px 200x;
+  background-repeat: round;
+}
 
+#robot {
+  display: inline-block;
+  padding: 4%;
+  margin: 2.5%;
+  background-image: url(../images/robot.jpg);
+  background-size: 400px 200x;
+  background-repeat: round;
+}
+
+#youtube {
+  display: inline-block;
+  padding: 4%;
+  margin: 2.5%;
+  background-image: url(../images/youtube.jpg);
+  background-size: 400px 200x;
+  background-repeat: round;
+}
+
+/* END OF MY WORK */
 
 
 
@@ -127,4 +158,8 @@ footer {
     width: 100%;
     font-weight: bolder;
     color: #f0f0d6;
+  }
+
+  footer div {
+    font-size: 25px;
   }
