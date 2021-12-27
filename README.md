@@ -12,7 +12,7 @@ I would like to share with you my very own web portfolo. It has taken many hours
 
 * ETC
 
-## Preview
+## Portfolio Preview
 
 The following image demonstrates the web application's default appearance and functionality:
 

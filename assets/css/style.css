@@ -1,21 +1,18 @@
 body {
-    margin: 0;
-    background-color: #f0f0d6;
+  margin: 0;
+  background-color: #f0f0d6;
 }
 
 /* START OF HEADER */
 header {
-    padding: 15px 15px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: sticky;
-    top: 0;
-    background-image: url("../images/triangles-blue.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    width: 100%;
+  padding: 15px 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  background-image: url("../images/triangles-blue.jpg");
+  width: 100%;
 }
   
 header h1 {
@@ -23,7 +20,6 @@ header h1 {
   font-weight: bold;
   margin: 0;
   font-size: 36px;
-  color: var(--primary-color);
   text-shadow: 0 0 10px rgba(255, 255, 159, 0.7);
 }
 
@@ -93,7 +89,6 @@ img {
 }
 /* END OF ABOUT ME */
 
-
 /* START OF MY WORK */
 .articles {
   max-width: 95%;
@@ -151,7 +146,6 @@ img {
 
 /* END OF SECTIONS */
 
-
 /* START OF FOOTER */
 footer {
   background: #4193a9;
@@ -166,13 +160,13 @@ footer {
 
 footer div {
   font-size: 25px;
-  
 }
 /* END OF FOOTER */
 
   /* HOVER */
 .articles :hover{
   color: aqua;
+  opacity: .6;
 }
 /* END OF HOVER */
 
