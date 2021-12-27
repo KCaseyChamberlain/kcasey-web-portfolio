@@ -97,22 +97,20 @@ section h2 {
 .articles p {
   font-size: 40px;
   color: #4193a9;
-  text-shadow: 0 0 10px rgba(0, 27, 69, 1);
+  text-shadow: 0 0 10px rgba(255, 255, 159, 0.7);
   text-align: center;
 }
 
 #run-buddy {
-  display: inline-block;
   background-image: url("../images/run-buddy.jpg");
   background-size: 400px 200x;
   background-repeat: round;
-  padding: 7%;
+  padding: 9%;
   margin: 2.5%;
 }
 
 #horiseon{
-  display: inline-block;
-  padding: 4%;
+  padding: 5%;
   margin: 2.5%;
   background-image: url(../images/horiseon.jpg);
   background-size: 400px 200x;
@@ -120,8 +118,7 @@ section h2 {
 }
 
 #robot {
-  display: inline-block;
-  padding: 4%;
+  padding: 4.5%;
   margin: 2.5%;
   background-image: url(../images/robot.jpg);
   background-size: 400px 200x;
@@ -129,8 +126,7 @@ section h2 {
 }
 
 #youtube {
-  display: inline-block;
-  padding: 4%;
+  padding: 2.5%;
   margin: 2.5%;
   background-image: url(../images/youtube.jpg);
   background-size: 400px 200x;
@@ -162,4 +158,9 @@ footer {
 
   footer div {
     font-size: 25px;
+    
   }
+
+.articles :hover{
+  color: aqua;
+}
